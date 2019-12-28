@@ -1,5 +1,5 @@
 import React from 'react';
-import {NavLink, withRouter} from "react-router-dom";
+import {NavLink} from "react-router-dom";
 import './nav.scss';
 import {MainObjectBase} from '../shared/main-object-base';
 
@@ -8,7 +8,6 @@ import {MainObjectBase} from '../shared/main-object-base';
 
 class Nav extends MainObjectBase {
     render() {
-        console.log('3333', this.props);
         return (
             <nav style={{height: this.props.height + '%'}} className="Nav">
                 <NavLink exact activeClassName="selected-page" to="/" >Home</NavLink>
