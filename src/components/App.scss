@@ -1,5 +1,11 @@
 .App {
+  width: 100vw;
+  height: 100vh;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: stretch;
 }
 
 .App-logo {
@@ -9,7 +15,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 80s linear;
   }
 }
 
