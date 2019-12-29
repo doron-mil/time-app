@@ -1,5 +1,5 @@
 import {ActionTypesEnum} from '../actions';
-import {IGeneralState} from '../state/generalState';
+import {IGeneralState} from '../state/general-state';
 import {Action} from 'redux';
 
 const initialState: IGeneralState = {
